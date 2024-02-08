@@ -23,15 +23,135 @@
 }
 
 .col-33 {
-    width: 972px;
+    width: calc (100% / 3)
 }
 
 .col-22 {
-    width: 486px;
+    width: 22%;
 }
 
 .col-grow {
-    flex-grow: 1;
+    flex-grow: 0;
 }
 
+
 /* ----/GRID---- */
+
+/* Tipografia */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* GENERAL */
+
+body>header{
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.big-container {
+    max-width: 1200px;
+    background-color: black;
+    margin: auto;
+}
+.container {
+    max-width: 1000px;
+    background-color: black;
+    margin: auto;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-alignitems {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between{
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.paddingd-50 {
+    padding: 0px 0px  0px 50px;
+}
+
+.paddings-10 {
+    padding: 0px 0px 0px 10px;
+}
+/* /GENERAL */
+
+/* Header */ 
+ .navbar {
+    height: 70px;
+    border-bottom: 3px solid black;
+ }
+
+.logo-img {
+    padding: 20px 20px;
+    
+
+
+}
+
+.navlink {
+    list-style: none;
+    gap: 20px;
+  
+}
+
+.navd {
+    padding: 0px 20px;
+    gap: 10px;
+}
+/* 
+BUTTON */
+
+ /* bottoni header */
+.btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px 0px;
+    cursor: pointer;
+   
+  }
+
+  .btn:hover {
+   border-bottom: 1px solid black;
+  }
+  /* /bottoni header */
+
+  /* bottoni blu */
+
+  .bluebtn {
+    background-color: #0061ff;
+    border: none;
+    color: white;
+   
+    height: 34px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  /* /bottoni blu */
