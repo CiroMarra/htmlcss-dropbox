@@ -10,13 +10,7 @@
 /* ---- /RESET ---- */
 
 /* ---- GRID ---- */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: 90px;
-}
+
 
 .row > * {
     padding: 0 10px;
@@ -34,6 +28,13 @@
     flex-grow: 0;
 }
 
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
 
 /* ----/GRID---- */
 
@@ -46,12 +47,7 @@ body {
 
 /* GENERAL */
 
-body>header{
-    height: 80px;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-}
+
 .big-container {
     max-width: 1200px;
     background-color: black;
@@ -59,7 +55,7 @@ body>header{
 }
 .container {
     max-width: 1000px;
-    background-color: black;
+    background-color: red;
     margin: auto;
 
 }
@@ -90,36 +86,12 @@ body>header{
 .paddings-10 {
     padding: 0px 0px 0px 10px;
 }
-/* /GENERAL */
 
-/* Header */ 
- .navbar {
-    height: 70px;
-    border-bottom: 3px solid black;
- }
-
-.logo-img {
-    padding: 20px 20px;
-    
-
-
-}
-
-.navlink {
-    list-style: none;
-    gap: 20px;
-  
-}
-
-.navd {
-    padding: 0px 20px;
-    gap: 10px;
-}
 /* 
 BUTTON */
 
  /* bottoni header */
-.btn {
+ .btn {
     background-color: transparent;
     border: none;
     color: inherit;
@@ -155,3 +127,41 @@ BUTTON */
   }
 
   /* /bottoni blu */
+
+/* /GENERAL */
+
+/* Header */ 
+
+
+.logo-img {
+    padding: 20px 20px;
+    
+
+
+}
+
+.navlink {
+    list-style: none;
+    gap: 20px;
+  
+}
+
+.navd {
+    padding: 0px 20px;
+    gap: 10px;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.azzurro {
+    background-color: #b4d0e7;
+
+    margin: auto;
+
+}
+
+.jumbo-img {
+    width: 300px;
+}
