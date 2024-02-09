@@ -38,6 +38,9 @@
    
 }
 
+.margin-top {
+    margin-top: 20px;
+}
 /* ----/GRID---- */
 
 /* Tipografia */
@@ -227,17 +230,20 @@ BUTTON */
 
 /* button radio */ 
 
+.button-box{
+    margin-top: 90px;
+    display: inline-flex;
+    gap: 150px;
+}
+
 .radio-button{
-    display: block;
+    display: inline-block;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    font-size: 16px;
+  
   }
   
 
@@ -289,3 +295,5 @@ BUTTON */
       border-radius: 50%;
       background: white;
   }
+
+  /* /button radio */
