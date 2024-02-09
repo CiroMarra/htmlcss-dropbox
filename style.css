@@ -30,10 +30,12 @@
 
 .col-40 {
     width: 40%;
+    height: 100%;
 }
 
 .col-60 {
     width: 60%;
+    height: 100%;
 }
 
 /* ----/GRID---- */
@@ -43,19 +45,22 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-
+.big-text {
+    padding-top: 20px;
+    font-size: 60px;
+}
 
 /* GENERAL */
 
 
 .big-container {
     max-width: 1200px;
-    background-color: black;
+    /*background-color: black;*/
     margin: auto;
 }
 .container {
     max-width: 1000px;
-    background-color: red;
+    /*background-color: red;*/
     margin: auto;
 
 }
@@ -155,13 +160,28 @@ BUTTON */
 
 /* MAIN */
 
-.azzurro {
-    background-color: #b4d0e7;
 
+.hero-box {
+     margin: auto;
+     position: relative;
+
+}
+
+.azzurro {
+    max-height: 760px;
+    background-color: #b4d0e7;
     margin: auto;
 
 }
 
 .jumbo-img {
-    width: 300px;
+    max-width: 100%;
+
+}
+
+.hero-element {
+    position: relative;
+    bottom: -60px;
+    padding-top: 30px;
+   
 }
