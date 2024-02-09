@@ -47,7 +47,7 @@ body {
 
 .big-text {
     padding-top: 40px;
-    font-size: 60px;
+    font-size: 79px;
     font-weight: 900;
 }
 
@@ -217,3 +217,75 @@ BUTTON */
     font-size: 50px;
     padding-top: 90px;
 }
+
+/* seconda section tabelle */
+
+.t-text {
+    font-size: 40px;
+    padding-top: 170px;
+}
+
+/* button radio */ 
+
+.radio-button{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+
+  .radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+
+  .checkmate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+  .radio-button:hover input ~ .checkmate {
+    background-color: #ccc;
+  }
+  
+
+  .radio-button input:checked ~ .checkmate {
+    background-color: #2196F3;
+  }
+  
+
+  .checkmate:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+
+  .radio-button input:checked ~ .checkmate:after {
+    display: block;
+  }
+  
+ 
+  .radio-button .checkmate:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
