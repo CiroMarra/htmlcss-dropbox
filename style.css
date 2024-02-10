@@ -40,7 +40,6 @@
 }
 
 
-
 .margin-top {
     margin-top: 20px;
 }
@@ -78,6 +77,10 @@ body {
 
 .flex-alignitems {
     display: flex;
+    align-items: center;
+}
+
+.center {
     align-items: center;
 }
 
@@ -301,22 +304,44 @@ BUTTON */
 
   /* /button radio */
 
+  .corpo {
+    border-bottom: 1px solid black;
+
+  }
+
   .tbl {
-     display: inline-block;
     /* background-color: lightblue;*/
-     border: 2px solid #ccc;
-     text-align: center;
-     padding: 10px 0px;
-     margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
   }
 
   .tblbody {
-    display: flex;
-   /* background-color: lightblue;*/
-    border: 2px solid #ccc;
-    text-align: center;
-    padding: 10px 0px;
-    height: 300px;
-    margin: auto;
 
-  }
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 60px;
+    line-height: 40px;
+    padding-right: 20px;
+ }
+
+ .tabelle {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+ }
+
+ .tblbody>h1 {
+    font-size: 32px;
+    
+ }
+
+ .testobody {
+    font-size: medium;
+ }
+
+ .table-list {
+    list-style: none;
+ }
