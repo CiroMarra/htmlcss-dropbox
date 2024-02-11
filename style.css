@@ -223,6 +223,22 @@ i{
 }
 /* /bottoni blu lista */
 
+/* Bottone End */
+.btn-end {
+    background-color: inherit;
+    border: 1px solid black;
+    color: black;
+    padding: 0px 20px;
+    height: 44px;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 /* /GENERAL */
 
 /* Header */ 
@@ -245,6 +261,10 @@ i{
 .navd {
     padding: 0px 20px;
     gap: 10px;
+}
+
+.fixed {
+    position: fixed;
 }
 
 /* /HEADER */
@@ -447,4 +467,26 @@ i{
     padding-bottom: 15px;
 }
 
+/* end section */
+
+.end-section {
+    display: flex;
+    padding-top: 150px;
+}
+
+.pb-lf-top {
+    padding-left: 60px;
+    padding-top: 80px;
+
+}
+
+
+.end-section > img {
+  max-width: 800px;
+   
+}
+
+.end-p {
+    padding-top: 30px;
+}
 
