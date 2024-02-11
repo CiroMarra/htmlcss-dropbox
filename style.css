@@ -11,15 +11,18 @@
 
 /* ---- GRID ---- */
 
-
+.margin-bottom{
+    margin-bottom: 60px;
+}
 .row > * {
     padding: 0 10px;
 }
 
 .col-33 {
-    width: 33%;
+    max-width: 33.33%;
 
 }
+
 
 .col-22 {
     width: 22%;
@@ -65,7 +68,7 @@ body {
     margin: auto;
 }
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     /*background-color: red;*/
     margin: auto;
 
@@ -156,6 +159,69 @@ BUTTON */
   }
 
   /* /bottoni blu */
+
+  /* Regole Card */
+  .card{
+    border: 1px solid #ccc;
+}
+
+.card-header{
+    padding-block: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.card-body{
+    padding-inline: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+.pb-15{
+    padding-block: 15px;
+}
+
+.ul-feature{
+    display: flex;
+    padding-block: 10px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+.mr-50{
+    margin-right: 25px;
+}
+
+.enterprise{
+    width: 100%;
+}
+
+/* /regola Card */
+
+  /* bottoni blu lista */
+  .bluebtn-list {
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 0px 20px;
+    height: 34px;
+    width: 264px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* /bottoni blu lista */
 
 /* /GENERAL */
 
@@ -311,25 +377,30 @@ BUTTON */
 
   .tbl {
     /* background-color: lightblue;*/
-    border: 1px solid black;
+    border: 1px solid #ccc;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
 
   }
 
-  .tblbody {
+  .tbl-center {
+    font-size: 16px;
+  }
 
-    border: 1px solid black;
+  .tblbody {
+    border: 1px solid #ccc;
     padding-left: 20px;
     padding-top: 60px;
-    line-height: 40px;
+    line-height: 1.5;
     padding-right: 20px;
+   
+
  }
 
  .tabelle {
     display: flex;
-    gap: 25px;
     margin-top: 50px;
  }
 
@@ -339,9 +410,27 @@ BUTTON */
  }
 
  .testobody {
-    font-size: medium;
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
  }
 
  .table-list {
+
     list-style: none;
+
  }
+
+ .tbl-btn {
+    margin-top: 40px;
+ }
+
+ .barra {
+    height: 1px;
+    background: #ccc;
+    margin: 0.5em 0;
+    width: 50px;
+}
+ 
+
+
