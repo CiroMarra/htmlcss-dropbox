@@ -14,9 +14,7 @@
 .margin-bottom{
     margin-bottom: 60px;
 }
-.row > * {
-    padding: 0 10px;
-}
+
 
 .col-33 {
     max-width: 33.33%;
@@ -48,13 +46,19 @@
    
 }
 .col-6 {
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 20px);
 
 }
 
 .margin-top {
     margin-top: 50px;
 }
+
+.margin-top-120 {
+    margin-top: 120px;
+}
+
+
 /* ----/GRID---- */
 
 /* Tipografia */
@@ -239,7 +243,10 @@ i{
 }
 /* /bottoni blu lista */
 
-/* Bottone End */
+/* Bottone partner */
+
+
+
 .btn-partner {
     background-color: inherit;
     border: 1px solid black;
@@ -255,6 +262,23 @@ i{
     font-size: 16px;
 }
 
+
+/* bottone demo */
+.btn-demo {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 0px 20px;
+    height: 44px;
+    width: 230px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+  
+}
 /* /GENERAL */
 
 /* Header */ 
@@ -530,4 +554,124 @@ i{
 
 .drop-user {
     font-size: 35px;
+    margin-bottom: 60px;
+}
+
+.user-section {
+   margin-bottom: 90px;
+}
+
+.partner-logo {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.box-partner {
+    height: 50%;
+    width: 50%;
+    background: green;
+    display: flex;
+    position: relative;
+}
+
+/*regole loghi*/
+.box-rules {
+    display: flex;
+    max-height: 70%;
+    max-width: 70%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+
+    
+}
+
+
+
+.logo-grigio {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+
+.logo-g-text {
+    padding-top: 80px;
+}
+.filtro {
+    filter: invert(1);
+}
+
+/* colori sfondo loghi */
+.verde {
+    background-color: #a2d39b;
+}
+
+.porpora {
+    background-color: #61082b;
+}
+
+.blu {
+    background-color: #0093ce;
+}
+
+.rosso {
+    background-color: #ff1c1c;
+
+}
+.bluscuro{
+    background-color: #0d2481;
+}
+
+.giallo {
+    background-color: #ffd830;
+
+}
+
+.grigio {
+    background-color: #f5f5f5;
+
+}
+
+.grigioblu {
+    background-color: #b4d0e7;
+}
+
+/* colori logo */
+
+.start-demo {
+    background-color: #b4d0e7;
+
+}
+
+.demo {
+    display: flex;
+
+
+}
+
+.demo-h1 {
+    font-size: 40px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #61082b;
+}
+
+.demo-button {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    
+}
+
+/* FaQ */
+
+.faq-title {
+    font-size: 36px;
 }
