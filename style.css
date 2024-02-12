@@ -51,6 +51,7 @@
 /* Tipografia */
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 14px;
 }
 
 .big-text {
@@ -230,7 +231,7 @@ i{
     color: black;
     padding: 0px 20px;
     height: 44px;
-    width: 160px;
+    width: 162px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -429,12 +430,12 @@ i{
     
  }
 
- .testobody {
+/* .testobody {
 
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+  
  }
-
+*/
 .relative {
     position: relative;
 }
