@@ -673,5 +673,23 @@ i{
 /* FaQ */
 
 .faq-title {
-    font-size: 36px;
+    font-size: 28px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid black;
+}
+
+.faq-question {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.freccetta-faq {
+    display: flex;
+
+    justify-content: end;
 }
