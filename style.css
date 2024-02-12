@@ -50,6 +50,10 @@
 
 }
 
+.col-footer {
+    width: calc(100% / 5);
+}
+
 .margin-top {
     margin-top: 50px;
 }
@@ -692,4 +696,29 @@ i{
     display: flex;
 
     justify-content: end;
+}
+
+/* FOOTER */
+
+.start-footer {
+    background-color: black;
+
+}
+
+.list-name {
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    color: white;
+    margin-right: 20px;
+}
+
+.barra-footer {
+    width: 90px;
+}
+
+.lingua {
+    color: grey;
+    padding-top: 20px;
 }
