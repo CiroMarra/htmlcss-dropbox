@@ -43,6 +43,15 @@
 }
 
 
+.col-50 {
+    width: 50%;
+   
+}
+.col-6 {
+    width: calc(100% / 3 - 10px);
+
+}
+
 .margin-top {
     margin-top: 50px;
 }
@@ -58,6 +67,12 @@ body {
     padding-top: 40px;
     font-size: 79px;
     font-weight: 900;
+}
+
+
+.box-title {
+    font-size: 16px;
+    padding-top: 30px;
 }
 
 /* GENERAL */
@@ -225,7 +240,7 @@ i{
 /* /bottoni blu lista */
 
 /* Bottone End */
-.btn-end {
+.btn-partner {
     background-color: inherit;
     border: 1px solid black;
     color: black;
@@ -470,7 +485,7 @@ i{
 
 /* end section */
 
-.end-section {
+.partner-section {
     display: flex;
     padding-top: 150px;
 }
@@ -482,12 +497,37 @@ i{
 }
 
 
-.end-section > img {
-  max-width: 800px;
+.partner-section > img {
+  max-width: 600px;
    
 }
 
-.end-p {
+.partner-p {
     padding-top: 30px;
 }
 
+.dropbox-operation {
+    display: flex;
+    margin: auto;
+}
+
+.operation-text {
+    padding-top: 120px;
+    font-size: 44px;
+}
+
+.operation-box {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.text-box{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.drop-user {
+    font-size: 35px;
+}
